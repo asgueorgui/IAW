@@ -25,3 +25,4 @@
 </body>
 </html>
 ```
+![Alt text](/relative/path/to/arrayphp.jpg?raw=true "Optional Title")
