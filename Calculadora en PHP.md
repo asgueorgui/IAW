@@ -1,5 +1,5 @@
 ## Implementacion de un calculadora con codigo PHP.
-#### Calculadora en PHP con metodo GET:  
+### Calculadora en PHP con metodo GET:  
 Codigo HTML para la creacion del formulario donde se registran los datos.
 ``` html
 <!DOCTYPE html>
@@ -48,7 +48,7 @@ Codigo HTML para la creacion del formulario donde se registran los datos.
 	echo "La solución es: ".$solucion;
 ?>
 ```
-#### Calculadora en PHP con metodo POST:  
+### Calculadora en PHP con metodo POST:  
 Codigo HTML para la creacion del formulario donde se registran los datos.
 ``` html
 <!DOCTYPE html>
