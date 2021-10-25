@@ -1,1 +1,16 @@
 ## Una empresa tiene el problema que quiere monitorizar sus servidores web de cara a las aplicaciones internas que usan, el problema es que sólo el administrador de sistemas tiene acceso a la máquina y nos piden que cualquier técnico pueda realizar un chequeo de los logs del sistema. Para ello nos piden una aplicación que detecte problemas en los logs típicos, que puedan visualizar logs del sistema y lanzar scripts de mantenimiento dentro del servidor.
+### Fichero log de apache en un textarea.
+``` php
+<?php
+    $fichero = fopen("C:\\xampp\\apache\\logs\\error.log","r");
+    echo "<textarea>";
+    while (!feof($fichero))
+    {
+        $linea = fgets($fichero);
+        echo $linea;
+        echo "<br>";
+    }
+    fclose ($fichero);
+    echo "</textarea>";
+?>
+```
