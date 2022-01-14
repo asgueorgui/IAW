@@ -31,7 +31,7 @@ while (contador >= 1){
 }
 alert (linea)
 ```
-### Codigo que nos muestra los numeros pares del 1 al 12
+### Codigo que nos muestra los numeros pares del 1 al 12.
 ``` javascript
 let contador = "0"
 while(contador <=12){
@@ -39,7 +39,7 @@ while(contador <=12){
     contador = contador + 2;
 }
 ```
-### Codigo para realizar ejercicios de potencias
+### Codigo para realizar ejercicios de potencias.
 ``` javascript
 let resultado = "1";
 let potencia = "10";
@@ -49,4 +49,10 @@ while(potencia >= "1"){
     potencia = potencia -1;
 }
 alert(resultado);
+```
+### Bucle for para contar de 2 en 2 hasta el numero que queremos.
+``` javascript
+for(let numero = 0; numero <= 12; numero = numero +2){
+	document.write(numero);
+}
 ```
