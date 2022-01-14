@@ -39,7 +39,7 @@ while(contador <=12){
     contador = contador + 2;
 }
 ```
-### Codigo para realizar ejercicios de potencias.
+### Codigo para realizar ejercicios de potencia con while y for.
 ``` javascript
 let resultado = "1";
 let potencia = "10";
@@ -50,6 +50,15 @@ while(potencia >= "1"){
 }
 alert(resultado);
 ```
+```javascript
+let resultado = 1
+for(let potencia = 0;
+	potencia <10;
+  potencia = potencia + 1){
+  	resultado = resultado * 2
+  }
+  alert(resultado)
+  ```
 ### Bucle for para contar de 2 en 2 hasta el numero que queremos.
 ``` javascript
 for(let numero = 0; numero <= 12; numero = numero +2){
