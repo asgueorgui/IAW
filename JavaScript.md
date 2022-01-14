@@ -31,3 +31,11 @@ while (contador >= 1){
 }
 alert (linea)
 ```
+### Codigo que nos muestra los numeros pares del 1 al 12
+``` javascript
+let contador = "0"
+while(contador <=12){
+		document.write(contador);
+    contador = contador + 2;
+}
+```
