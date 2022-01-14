@@ -39,3 +39,14 @@ while(contador <=12){
     contador = contador + 2;
 }
 ```
+### Codigo para realizar ejercicios de potencias
+``` javascript
+let resultado = "1";
+let potencia = "10";
+let base = "2";
+while(potencia >= "1"){
+		resultado = resultado * base;
+    potencia = potencia -1;
+}
+alert(resultado);
+```
